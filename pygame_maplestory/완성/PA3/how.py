@@ -7,7 +7,7 @@ import main
 def play(screen):
     pygame.init()
     how_background = pygame.image.load("./image/img/how.png")
-    how_background = pygame.transform.scale(how_background, (1024, 670))
+    how_background = pygame.transform.scale(how_background, (1024, 670)) 
     background = how_background
 
     font = pygame.font.SysFont("comicsansms", 30)
